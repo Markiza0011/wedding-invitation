@@ -1158,3 +1158,128 @@ display:inline-flex;
 align-items:center;
 justify-content:center;
 }
+
+/* ==============================
+   МОБИЛЬНАЯ ВЕРСИЯ
+   ============================== */
+
+max-width: 768px {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .right-pattern {
+        width: 28px;
+        opacity: 0.55;
+    }
+
+    .hero,
+    .photo-one,
+    .photo-two,
+    footer {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .hero-content {
+        width: 90%;
+        padding: 30px 15px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .hero-date {
+        font-size: 15px;
+    }
+
+    #countdown {
+        gap: 6px;
+    }
+
+    .time-box {
+        min-width: 55px;
+        padding: 8px 5px;
+    }
+
+    .time-box span {
+        font-size: 22px;
+    }
+
+    .time-box small {
+        font-size: 10px;
+    }
+
+    #musicBtn {
+        font-size: 13px;
+        padding: 10px 16px;
+    }
+
+    .container,
+    .section-content {
+        width: 90%;
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .details-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .detail-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .rsvp-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .rsvp-btn {
+        width: 85%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .photo-one,
+    .photo-two {
+        min-height: 55vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    footer {
+        min-height: 70vh;
+    }
+
+    .footer-content {
+        width: 90%;
+        padding: 30px 10px;
+    }
+
+    footer h2 {
+        font-size: 36px;
+    }
+}
