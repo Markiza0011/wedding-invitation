@@ -1409,7 +1409,7 @@ t-align: center;
 
     .hero-ornament,
     .footer-ornament {
-        background-size: 35px auto !important;
+        background-size: 15px auto !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
     }
