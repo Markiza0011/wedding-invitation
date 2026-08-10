@@ -1409,14 +1409,14 @@ t-align: center;
    ============================== */
 
 body::after {
-    width: 38px;
-    background-size: 32px auto;
+    width: 32px;
+    background-size: 27px auto;
     opacity: 0.7;
 }
 
 .right-pattern {
-    width: 38px;
-    background-size: 32px auto;
+    width: 32px;
+    background-size: 27px auto;
     opacity: 0.7;
 }     
       
