@@ -1405,5 +1405,14 @@ t-align: center;
     }
 }
 
+@media screen and (max-width: 768px) {
 
+    .hero-ornament,
+    .footer-ornament {
+        background-size: 35px auto !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+
+}
 
